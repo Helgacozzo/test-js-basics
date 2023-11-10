@@ -35,6 +35,7 @@
 
 
 //ESERCIZIO 2
+
 // window.addEventListener('load', function () {
 
 //     function riempiArray(numeroElementi, valoreMinimo, valoreMassimo) {
@@ -72,5 +73,32 @@
 
 //     let conteggio = contaPariDispari(arrayCasuale);
 //     console.log(conteggio);
+
+// });
+
+
+
+//ESERCIZIO 3
+
+// window.addEventListener('load', function () {
+
+//     const bottone = document.getElementById('bottoneInvio');
+
+//     bottone.addEventListener('click', function () {
+
+//         const inputUtente = document.getElementById('testoUtente');
+//         const testoInserito = inputUtente.value;
+
+//         if (testoInserito === '') {
+//             alert('Inserisci del testo prima di inviare!');
+//         } else {
+//             const body = document.body;
+//             const nuovoP = document.createElement('p');
+//             nuovoP.innerText += testoInserito;
+//             body.appendChild(nuovoP);
+//             inputUtente.value = '';
+//         }
+
+//     });
 
 // });
